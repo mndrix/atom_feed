@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xml:lang="en-US">
+  <id>tag:devcenter.heroku.com,2005:/changelog/feed</id>
+  <link rel="alternate" type="text/html" href="http://devcenter.heroku.com" />
+  
+  <title>Heroku Changelog</title>
+  <author>
+    <name>Heroku</name>
+  </author>
+  <updated>2013-10-29T00:00:00Z</updated>
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/herokuchangelog" /><feedburner:info uri="herokuchangelog" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/357</id>
+    <published>2013-10-29T00:00:00Z</published>
+    <updated>2013-10-29T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/TzTm3WWvguk/357" />
+    <title>Going forwards any deploys of JRuby 1.7.1, 1.7.2, and 1.7.3 will use OpenJDK 1.7.0_25.</title>
+    <content type="html">&lt;p&gt;JRuby 1.7.1, 1.7.2, &amp;amp; 1.7.3 experience a &lt;a href="https://github.com/jruby/jruby/issues/899"&gt;libjffi-1.2.so warning&lt;/a&gt; if a they are used with a version OpenJDK 1.7.0_45 or later. Going forwards any deploys of JRuby 1.7.1, 1.7.2, and 1.7.3 &lt;a href="https://devcenter.heroku.com/articles/ruby-support#ruby-versions"&gt;will use OpenJDK 1.7.0_25&lt;/a&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/357</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/356</id>
+    <published>2013-10-28T00:00:00Z</published>
+    <updated>2013-10-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/pqlMceolAZU/356" />
+    <title>Platform API support for custom OAuth authorization expiration</title>
+    <content type="html">&lt;p&gt;Clients can now &lt;a href="https://devcenter.heroku.com/articles/platform-api-reference#oauth-authorization-create"&gt;specify a custom expiration for OAuth authorizations via the optional parameter &lt;code&gt;expires_in&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/356</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/355</id>
+    <published>2013-10-28T00:00:00Z</published>
+    <updated>2013-10-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/fnN6_B_c9fM/355" />
+    <title>Rails 3 deploys now error out on failed `rake assets:precompile`</title>
+    <content type="html">&lt;p&gt;When deploying a Rails 3 app, if &lt;code&gt;rake assets:precompile&lt;/code&gt; is detected as a valid rake task, and no asset manifest file is present (indicating that the task should be skipped), the precompile command is now expected to succeed. If it does not succeed the deploy process will exit, and the results of the &lt;code&gt;assets:precompile&lt;/code&gt; task output to the screen for debugging.&lt;/p&gt;
+
+&lt;p&gt;If an asset pre-compilation fails on Heroku ensure that you can run it locally without error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="sh"&gt;$ bundle exec rake assets:precompile RAILS_ENV=production RAILS_GROUPS=assets
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See &lt;a href="https://devcenter.heroku.com/articles/rails-asset-pipeline#troubleshooting"&gt;Troubleshooting Rails 3 asset precompilation&lt;/a&gt; for more information.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/355</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/354</id>
+    <published>2013-10-24T00:00:00Z</published>
+    <updated>2013-10-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/BMBbL3rQFGs/354" />
+    <title>Daily dyno restarts now have faster switchover</title>
+    <content type="html">&lt;p&gt;Dynos running on Heroku are cycled at least once per day. We are rolling out a change that makes the switch from old to new dyno smoother: Instead of waiting for the old dyno to shut down before starting a new one, Heroku now starts the new dyno as soon as the shutdown signal is sent to the old dyno. This change brings daily dyno restart behavior in line with general restart behavior and restart behavior when new app releases are deployed.&lt;/p&gt;
+
+&lt;p&gt;Read more about the &lt;a href="https://devcenter.heroku.com/articles/dynos#the-dyno-manager"&gt;Heroku Dyno Manager on Dev Center&lt;/a&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/354</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/353</id>
+    <published>2013-10-24T00:00:00Z</published>
+    <updated>2013-10-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/esPvT1fATnA/353" />
+    <title>Use of Heroku AWS security group and account id no longer recommended</title>
+    <content type="html">&lt;p&gt;Previously, Heroku recommended using our AWS security group and AWS account ID to grant apps access to other services running on AWS. Example use cases were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using AWS RDS with a Heroku app&lt;/li&gt;
+&lt;li&gt;Sending Heroku app logs to a Syslog server running on AWS EC2&lt;/li&gt;
+&lt;li&gt;Accessing other services running on AWS from Heroku apps&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;This approach is no longer recommended and the relevant documentation has been removed. Reasons for no longer recommending this include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cross-security grants don’t work with &lt;a href="http://aws.amazon.com/vpc/"&gt;AWS VPC&lt;/a&gt; (which is now the default on AWS)&lt;/li&gt;
+&lt;li&gt;It’s not safe because it grants access to all apps running on Heroku, not just yours&lt;/li&gt;
+&lt;li&gt;Doesn’t work across AWS regions&lt;/li&gt;
+&lt;li&gt;Heroku may in the future run apps in a VPC or in a different region or use a different AWS account&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;If you are using Heroku with a AWS RDS database, we recommend using SSL to secure database connections. Find links and details in the &lt;a href="https://devcenter.heroku.com/articles/amazon_rds"&gt;Amazon RDS Dev Center article&lt;/a&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/353</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/352</id>
+    <published>2013-10-23T00:00:00Z</published>
+    <updated>2013-10-23T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/6jKXJElRD00/352" />
+    <title>JDK 7 Patch Level Bumped to u45</title>
+    <content type="html">&lt;p&gt;The Java stack now uses OpenJDK 7u45 for apps that &lt;a href="https://devcenter.heroku.com/articles/add-java-version-to-an-existing-maven-app"&gt;specify JDK 7&lt;/a&gt;. To use the updated JDK in your app push a new version to trigger a re-build: &lt;code&gt;git push heroku master&lt;/code&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/352</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/351</id>
+    <published>2013-10-22T00:00:00Z</published>
+    <updated>2013-10-22T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/1wxX994R8J8/351" />
+    <title>JRuby 1.7.6 now available</title>
+    <content type="html">&lt;p&gt;The Ruby stack now supports &lt;a href="https://devcenter.heroku.com/articles/ruby-support#ruby-versions"&gt;JRuby 1.7.6 in 2.0.0 (experimental), 1.9.3, 1.8.7 mode&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To use JRuby 1.7.6 in Ruby 1.9.3 mode, add this to your &lt;code&gt;Gemfile&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="ruby"&gt;ruby '1.9.3', :engine =&amp;gt; 'jruby', :engine_version =&amp;gt; '1.7.6'
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Adjust the &lt;code&gt;ruby&lt;/code&gt; value depending on the mode you wish to use.&lt;/p&gt;
+
+&lt;p&gt;The JRuby release notes can be found &lt;a href="http://jruby.org/2013/10/22/jruby-1-7-6.html"&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/351</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/350</id>
+    <published>2013-10-21T00:00:00Z</published>
+    <updated>2013-10-21T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/u9DT8ZcMH7c/350" />
+    <title>Excluded Play 2.2 apps from Play 1.2.x app detection</title>
+    <content type="html">&lt;p&gt;The app detection for &lt;a href="https://devcenter.heroku.com/articles/play-support"&gt;Play 1.2.x&lt;/a&gt; has been improved to not include Play 2.2 apps that no longer contain a &lt;code&gt;project/Build.scala&lt;/code&gt; files. Play 2.x apps are detected as and handled as Scala apps.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/350</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/349</id>
+    <published>2013-10-21T00:00:00Z</published>
+    <updated>2013-10-21T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/0-zs99i1PbY/349" />
+    <title>Platform API dyno and formation `size` attributes are now strings</title>
+    <content type="html">&lt;p&gt;The &lt;code&gt;size&lt;/code&gt; attribute of &lt;a href="https://devcenter.heroku.com/articles/platform-api-reference#dyno"&gt;dynos&lt;/a&gt; and &lt;a href="https://devcenter.heroku.com/articles/platform-api-reference#formation"&gt;formations&lt;/a&gt; is now taken and return as a string instead of an integer.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/349</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/348</id>
+    <published>2013-10-19T00:00:00Z</published>
+    <updated>2013-10-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/ddJ7NFohbsc/348" />
+    <title>Node.js release: v0.10.21 and v0.8.26</title>
+    <content type="html">&lt;p&gt;&lt;a href="https://groups.google.com/forum/#!topic/nodejs/NEbweYB0ei0"&gt;Node.js versions 0.8.26 and 0.10.21 have been released&lt;/a&gt; and are now available on Heroku.  They address a denial-of-service vulnerability in Node’s HTTP stack.  For upgrade instructions, see &lt;a href="https://devcenter.heroku.com/articles/nodejs-support#versions"&gt;https://devcenter.heroku.com/articles/nodejs-support#versions&lt;/a&gt;&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/348</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/347</id>
+    <published>2013-10-17T00:00:00Z</published>
+    <updated>2013-10-17T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/jykWbuunhgM/347" />
+    <title>Platform API has a new format for referencing resources</title>
+    <content type="html">&lt;p&gt;We’re changing the way resources are identified in requests to the Platform API: Instead of a nested object containing either the resource id (eg: &lt;code&gt;"user":{"id":"01234..."}&lt;/code&gt;) or a human-friendly identifier (eg: &lt;code&gt;"user":{"email":"username@example.com"}&lt;/code&gt;), you now have to supply a simple attribute containing either the id or the friendly identifier: &lt;code&gt;"user":"01234..."&lt;/code&gt; or &lt;code&gt;"user":"username@example.com"&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The previous format will continue to work until Nov 4th. For more info please &lt;a href="https://gist.github.com/pedro/7034578"&gt;refer to this list of specific endpoints that are affected&lt;/a&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/347</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/346</id>
+    <published>2013-10-17T00:00:00Z</published>
+    <updated>2013-10-17T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/NVbxoD7YASw/346" />
+    <title>Account confirmation retired</title>
+    <content type="html">&lt;p&gt;&lt;a href="https://devcenter.heroku.com/articles/account-confirmation"&gt;Account confirmation&lt;/a&gt; has been retired. All unconfirmed accounts with credit cards have been contacted and migrated.&lt;/p&gt;
+
+&lt;p&gt;Read more about &lt;a href="https://devcenter.heroku.com/articles/account-verification"&gt;account verification&lt;/a&gt; on Dev Center.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/346</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/345</id>
+    <published>2013-10-15T00:00:00Z</published>
+    <updated>2013-10-15T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/zOzWqDapMao/345" />
+    <title>Platform API collaborator management endpoints now require `write-protected` OAuth scope</title>
+    <content type="html">&lt;p&gt;The platform API endpoints for &lt;a href="https://devcenter.heroku.com/articles/platform-api-reference#collaborator"&gt;collaborator management&lt;/a&gt; now require the &lt;code&gt;write-protected&lt;/code&gt; OAuth scope to be accessed (previously, they only required &lt;code&gt;write&lt;/code&gt;).&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/345</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/344</id>
+    <published>2013-10-11T00:00:00Z</published>
+    <updated>2013-10-11T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/0OZERbgOE_0/344" />
+    <title>Dyno restart policy</title>
+    <content type="html">&lt;p&gt;Restarts in the case of repeated dyno crashes &lt;a href="https://devcenter.heroku.com/articles/dynos#dyno-crash-restart-policy"&gt;now have exponential backoff&lt;/a&gt;. In the normal case of a long-running web or worker process getting an occasional crash, the dyno will be restarted without any intervention on your part. If a dyno crashes multiple times in a row, it will be restarted with exponentially increasing cool-off periods. If you push a new release to your app, the cool-off period will be reset.&lt;/p&gt;
+
+&lt;p&gt;Previously, the backoff policy was to restart dyno crashes every 10 minutes. &lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/344</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/343</id>
+    <published>2013-10-11T00:00:00Z</published>
+    <updated>2013-10-11T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/TdFJiRzoSfk/343" />
+    <title>JRuby 1.7.5 now available</title>
+    <content type="html">&lt;p&gt;The Ruby stack now supports &lt;a href="https://devcenter.heroku.com/articles/ruby-support#ruby-versions"&gt;JRuby 1.7.5 in 2.0.0 (experimental), 1.9.3, 1.8.7 mode&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To use JRuby 1.7.5 in Ruby 1.9.3 mode, add this to your &lt;code&gt;Gemfile&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="ruby"&gt;ruby '1.9.3', :engine =&amp;gt; 'jruby', :engine_version =&amp;gt; '1.7.5'
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Adjust the &lt;code&gt;ruby&lt;/code&gt; value depending on the mode you wish to use.&lt;/p&gt;
+
+&lt;p&gt;The JRuby release notes can be found &lt;a href="http://jruby.org/2013/10/07/jruby-1-7-5.html"&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/343</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/342</id>
+    <published>2013-10-11T00:00:00Z</published>
+    <updated>2013-10-11T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/3mQI6vOR5Ic/342" />
+    <title>Interrupt propagation for `git push`</title>
+    <content type="html">&lt;p&gt;When pushing code to Heroku, &lt;a href="https://devcenter.heroku.com/articles/git#cancelling-a-deployment"&gt;you can now interrupt the build process&lt;/a&gt; by pressing &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;. &lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/342</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/341</id>
+    <published>2013-10-11T00:00:00Z</published>
+    <updated>2013-10-11T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/bbqu5FznB10/341" />
+    <title>Clojure apps upgraded to Leiningen 2.3.3</title>
+    <content type="html">&lt;p&gt;Clojure apps will now use &lt;a href="https://github.com/technomancy/leiningen/blob/2.3.3/NEWS.md"&gt;Leiningen 2.3.3&lt;/a&gt; upon deploy. Read &lt;a href="https://devcenter.heroku.com/articles/clojure-support"&gt;more about Clojure support&lt;/a&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/341</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/340</id>
+    <published>2013-10-10T00:00:00Z</published>
+    <updated>2013-10-10T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/oLTC30PjG0s/340" />
+    <title>Play 2.x slugs exclude SBT compile-only artifacts</title>
+    <content type="html">&lt;p&gt;To reduce slug sizes, new builds of &lt;a href="https://devcenter.heroku.com/articles/play-support"&gt;Play 2.x&lt;/a&gt; apps now exclude the following directories after compilation, as they are not required at runtime:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;project/boot&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;target/scala-*&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;target/streams&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;target/resolution-cache&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/340</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/339</id>
+    <published>2013-10-09T00:00:00Z</published>
+    <updated>2013-10-09T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/PjHetih0QT8/339" />
+    <title>Play 1.2.5.3 Support</title>
+    <content type="html">&lt;p&gt;Support for Play Framework version 1.2.5.3 is now available. Read more: &lt;a href="https://devcenter.heroku.com/articles/play-support"&gt;Heroku Play Framework Support&lt;/a&gt;&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/339</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/336</id>
+    <published>2013-10-08T00:00:00Z</published>
+    <updated>2013-10-08T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/SKkrbLfoETM/336" />
+    <title>WebSockets available in public beta </title>
+    <content type="html">&lt;p&gt;WebSockets are &lt;a href="https://devcenter.heroku.com/articles/heroku-labs-websockets"&gt;now supported&lt;/a&gt; on Heroku, as part of Heroku Labs. To enable WebSockets for your application run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="term"&gt;$ heroku labs:enable websockets -a myapp
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Language specific WebSocket guides can be found for:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://devcenter.heroku.com/articles/node-websockets"&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://devcenter.heroku.com/articles/ruby-websockets"&gt;Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://devcenter.heroku.com/articles/python-websockets"&gt;Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://devcenter.heroku.com/articles/play-java-websockets"&gt;Java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/336</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/337</id>
+    <published>2013-10-07T00:00:00Z</published>
+    <updated>2013-10-07T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/qZTMhXc-6iM/337" />
+    <title>EV SSL Certificates now in use for Heroku-owned applications</title>
+    <content type="html">&lt;p&gt;Heroku now uses Extended Validation SSL Certificates for most of our Heroku-owned applications. This allows you to tell at a glance if a URL belongs to Heroku itself, or whether it is some customer’s app running on the Heroku platform.  This only applies to browser-facing apps (dashboard, www) not API-like things (api.heroku.com, Heroku Postgres backend services).&lt;/p&gt;
+
+&lt;p&gt;For more information, see &lt;a href="https://devcenter.heroku.com/articles/ev-ssl-certificates-and-heroku-owned-apps"&gt;EV SSL Certificates and Heroku-owned Applications&lt;/a&gt; in the Dev Center.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/337</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/335</id>
+    <published>2013-10-04T00:00:00Z</published>
+    <updated>2013-10-04T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/Oda8HUPjOFg/335" />
+    <title>Platform API  "PATCH formations by type" endpoint now responds with single type</title>
+    <content type="html">&lt;p&gt;The platform API’s &lt;code&gt;PATCH /apps/:id/formation/:type&lt;/code&gt; endpoint now returns the serialized version of the single type that was patched rather than responding with the full list of all types.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/335</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/334</id>
+    <published>2013-10-01T00:00:00Z</published>
+    <updated>2013-10-01T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/w0n2SnV2GmI/334" />
+    <title>Node.js v0.10.20 Support</title>
+    <content type="html">&lt;p&gt;Heroku now supports &lt;a href="http://blog.nodejs.org/2013/09/30/node-v0-10-20-stable/"&gt;Node.js v0.10.20&lt;/a&gt;, which &lt;a href="https://twitter.com/nodejs/status/384807430116225025"&gt;fixes some issues&lt;/a&gt; in last week’s &lt;code&gt;0.10.19&lt;/code&gt; release. You can &lt;a href="https://devcenter.heroku.com/articles/nodejs-versions"&gt;specify a version&lt;/a&gt; in the &lt;code&gt;engines.node&lt;/code&gt; field of your app’s package.json file, e.g. &lt;code&gt;0.10.x&lt;/code&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/334</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/333</id>
+    <published>2013-09-30T00:00:00Z</published>
+    <updated>2013-09-30T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/kjaB1Nplvz8/333" />
+    <title>Heroku CLI v3.0.0 released replacing db:push/pull with pg:push/pull</title>
+    <content type="html">&lt;p&gt;A new version of the Heroku CLI is available that removes the &lt;code&gt;db:push&lt;/code&gt; and &lt;code&gt;db:pull&lt;/code&gt; commands, replacing them with &lt;code&gt;pg:push&lt;/code&gt; and &lt;code&gt;pg:pull&lt;/code&gt;. These new commands are faster and significantly more robust but no longer support non-Postgres databases. For help installing Postgres locally see &lt;a href="https://devcenter.heroku.com/articles/heroku-postgresql#local-setup"&gt;local Postgres setup&lt;/a&gt; in Dev Center.&lt;/p&gt;
+
+&lt;p&gt;Detailed information on these new commands can be found in the &lt;a href="https://devcenter.heroku.com/articles/heroku-postgresql#pg-push-and-pg-pull"&gt;pg:push and pg:pull&lt;/a&gt; section of the Heroku Postgres documentation. &lt;/p&gt;
+
+&lt;p&gt;Update your &lt;a href="https://toolbelt.heroku.com/"&gt;Toolbelt&lt;/a&gt; and push and pull your Postgres databases.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="term"&gt;$ heroku update
+Updating from 2.40.0... done
+
+$ heroku pg:pull will::DATABASE_URL my_local_copy
+pg_dump: reading schemas
+pg_dump: reading user-defined tables
+pg_dump: reading extensions
+...
+
+$ heroku pg:push my_local_copy will::RED
+pg_dump: reading schemas
+pg_dump: reading user-defined tables
+pg_dump: reading extensions
+...
+&lt;/code&gt;&lt;/pre&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/333</feedburner:origLink></entry>
+  <entry>
+    <id>tag:devcenter.heroku.com,2005:ChangelogItem/332</id>
+    <published>2013-09-27T00:00:00Z</published>
+    <updated>2013-09-27T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://feedproxy.google.com/~r/herokuchangelog/~3/ZKV1VtpFl3Q/332" />
+    <title>Dataclips improvements with clip forking and syntax highlighting</title>
+    <content type="html">&lt;p&gt;Newly forked Dataclips now add a “Fork of …” prefix by default to distinguish them from their parents. &lt;/p&gt;
+
+&lt;p&gt;Syntax highlighting has been improved to correctly handle Postgres specific syntax such as &lt;code&gt;select $$dollar quoting$$;&lt;/code&gt;.&lt;/p&gt;</content>
+  <feedburner:origLink>http://devcenter.heroku.com/changelog-items/332</feedburner:origLink></entry>
+</feed>

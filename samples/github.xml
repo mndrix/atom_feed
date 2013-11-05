@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <id>tag:github.com,2008:/blog/all</id>
+  <link rel="alternate" type="text/html" href="https://github.com/blog"/>
+  <link rel="self" type="application/atom+xml" href="https://github.com/blog/all.atom"/>
+  <title>The GitHub Blog</title>
+  <updated>2013-11-04T11:21:36-08:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Post/1671</id>
+    <published>2013-11-04T11:21:36-08:00</published>
+    <updated>2013-11-04T11:21:36-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1671-lara-owen-is-a-githubber"/>
+    <title>Lara Owen is a GitHubber!</title>
+    <category>hire</category>
+    <content type="html">&lt;p&gt;Lara joins us as the Office Operations Manager, here to help make the office and everyone's experience in it even more awesome than it is now. She's a six-foot-tall redhead who enjoys whisky, sloths, bacon, high heels, and world travel. Preferably all the same time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github-images.s3.amazonaws.com/blog/2013/hires/lara-owen.gif&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://github-images.s3.amazonaws.com/blog/2013/hires/lara-owen.gif&quot; alt=&quot;&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bigred&quot;&gt;@bigred&lt;/a&gt; on GitHub&lt;/p&gt;</content>
+    <media:thumbnail url="https://1.gravatar.com/avatar/4acc63ae1aa498456019c1887c018adb?d=https%3A%2F%2Fidenticons.github.com%2F5e89f70b5eb887cda663827008853791.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>ekb</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1677</id>
+    <published>2013-11-03T20:06:37-08:00</published>
+    <updated>2013-11-04T06:03:55-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1677-github-talks-in-japan"/>
+    <title>GitHub talks in Japan</title>
+    <category>drinkup</category>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://github.com/johndbritton&quot;&gt;John Britton&lt;/a&gt; and &lt;a href=&quot;http://github.com/matthewmccullough&quot;&gt;Matthew McCullough&lt;/a&gt; will be making a trek across Japan to host a series of talks and drinkups. We'd love to have you join us for one or more of these events happening in November.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;All of the talks will be given in English, with live translation into Japanese.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:jp:&quot; alt=&quot;:jp:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/jp.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt; &#12472;&#12519;&#12531;&#12539;&#12502;&#12522;&#12488;&#12531;&#12392;&#12510;&#12471;&#12517;&#12540;&#12539;&#12510;&#12483;&#12459;&#12525;&#12364;&#35611;&#28436;(talks)&#12392;&#25031;&#35242;&#20250;&#65288;drinkups&#65289;&#12434;&#38283;&#20652;&#12377;&#12427;&#12383;&#12417;&#12395;&#26085;&#26412;&#12434;&#27178;&#26029;&#12375;&#12414;&#12377;&#12290;11&#26376;&#12395;&#26085;&#26412;&#21508;&#22320;&#12391;&#38283;&#20652;&#12377;&#12427; &#12371;&#12398;&#12452;&#12505;&#12531;&#12488;&#12391;&#26159;&#38750;&#12362;&#20250;&#12356;&#12375;&#12414;&#12375;&#12423;&#12358;&#12290;&lt;/p&gt;
+
+&lt;h4&gt;Talk &#8212; Git and GitHub Foundations&lt;/h4&gt;
+
+&lt;p&gt;Our Foundations class helps you, as a newcomer to GitHub and Git, fully grasp the concepts and application of distributed version control so that you can effectively begin using this productivity-enhancing suite of tools. During this live training course, we&#8217;ll explore the foundations of GitHub and Git through practical every-day commands and processes. We&#8217;ll conclude with workflow ideas and practical tips that will get you on the road to mastery of this revolutionary version control system.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:jp:&quot; alt=&quot;:jp:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/jp.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt;&lt;strong&gt;Git&#12392;GitHub&#12398;&#22522;&#30990;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;GitHub&#12398;&#22522;&#30990;&#12463;&#12521;&#12473;&#12399;&#12289;GitHub&#12392;Git&#21021;&#24515;&#32773;&#12395;&#12289;&#20998;&#25955;&#22411;&#12496;&#12540;&#12472;&#12519;&#12531;&#31649;&#29702;&#12471;&#12473;&#12486;&#12512;&#12398;&#27010;&#24565;&#12392;&#27963;&#29992;&#26041;&#27861;&#12434;&#32057;&#20171;&#12375;&#12414;&#12377;&#12290;&#12371;&#12398;&#25480;&#26989;&#12434;&#36890;&#12376;&#12390;&#12289;&#12371;&#12428;&#12425;&#29983;&#29987;&#24615;&#21521;&#19978;&#12434;&#21487;&#33021;&#12395;&#12377;&#12427;&#12484;&#12540;&#12523;&#12434;&#21177;&#26524;&#30340;&#12395;&#27963;&#29992;&#12375;&#22987;&#12417;&#12427;&#12371;&#12392;&#12364;&#20986;&#26469;&#12414;&#12377;&#12290;&#12371;&#12398;&#25480;&#26989;&#12391;&#12399;&#12289;&#27598;&#26085;&#12398;&#26989;&#21209;&#12391;&#23455;&#38555;&#12395;&#20351;&#29992;&#12391;&#12365;&#12427;&#12467;&#12510;&#12531;&#12489;&#12434;&#36890;&#12376;&#12390;&#12289;GitHub&#12392;Git&#12398;&#22522;&#30990;&#12434;&#32057;&#20171;&#12375;&#12414;&#12377;&#12290;&#26368;&#24460;&#12395;&#12289;&#12371;&#12398;&#38761;&#21629;&#30340;&#12394;&#12496;&#12540;&#12472;&#12519;&#12531;&#31649;&#29702;&#12471;&#12473;&#12486;&#12512;&#12434;&#20351;&#12356;&#12371;&#12394;&#12377;&#12383;&#12417;&#12398;&#12527;&#12540;&#12463;&#12501;&#12525;&#12540;&#12420;&#12289;&#12377;&#12368;&#12395;&#27963;&#29992;&#20986;&#26469;&#12427;&#12498;&#12531;&#12488;&#12434;&#32057;&#20171;&#12375;&#12414;&#12377;&#12290;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Schedule&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;City&lt;/th&gt;
+&lt;th&gt;Details&lt;/th&gt;
+&lt;th&gt;Registration&lt;/th&gt;
+&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;16 Nov&lt;/td&gt;
+&lt;td&gt;Tokyo&lt;/td&gt;
+&lt;td&gt;13:30-18:00 @ &lt;a href=&quot;http://goo.gl/OYubo2&quot;&gt;Amazon Japan&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.zusaar.com/event/1307006&quot;&gt;Registration required&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;18 Nov&lt;/td&gt;
+&lt;td&gt;Fukuoka&lt;/td&gt;
+&lt;td&gt;18:00-21:00 @ &lt;a href=&quot;http://goo.gl/maps/3u6p9&quot;&gt;Frac&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.zusaar.com/event/1397003&quot;&gt;Registration required&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20 Nov&lt;/td&gt;
+&lt;td&gt;Kobe&lt;/td&gt;
+&lt;td&gt;19:30-21:00 @ &lt;a href=&quot;http://goo.gl/maps/0UeAd&quot;&gt;Space Alpha Sannomiya&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.zusaar.com/event/1537003&quot;&gt;Registration required&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;21 Nov&lt;/td&gt;
+&lt;td&gt;Osaka&lt;/td&gt;
+&lt;td&gt;18:00-21:30 @ &lt;a href=&quot;http://goo.gl/maps/GuC6j&quot;&gt;Yahoo! Japan&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://connpass.com/event/3965/&quot;&gt;Registration required&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22 Nov&lt;/td&gt;
+&lt;td&gt;Kyoto&lt;/td&gt;
+&lt;td&gt;19:30-21:00 @ &lt;a href=&quot;http://goo.gl/maps/DJKed&quot;&gt;Hatena&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.zusaar.com/event/1547007&quot;&gt;Registration required&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;h4&gt;Talk &#8212; Git Internals: Graphs, Hashes, and Compression&lt;/h4&gt;
+
+&lt;p&gt;Git is a version control system built on well known patterns in computer science. It exposes a powerful library of low-level routines available to users and developers alike. These can come in handy as powerful development tools you can use to extend Git itself. Come and learn how to add and commit files, create branches, and merge, all without using any of the commands you would expect.&lt;/p&gt;
+
+&lt;p&gt;I will take you to the very bottom. The floor. The code. The algorithms. The directed acyclic graph of hashed bit sequences made efficient through LZW compression and deferred garbage collection determined by node reachability via hash relationships.&lt;/p&gt;
+
+&lt;p&gt;We want and need to know precisely how things work. Let&#8217;s dig into the guts of Git.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:jp:&quot; alt=&quot;:jp:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/jp.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt;&lt;strong&gt;Git Internals: &#12464;&#12521;&#12501;&#12289;&#12495;&#12483;&#12471;&#12517;&#12392;&#22311;&#32302;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Git&#12399;&#12289;&#12467;&#12531;&#12500;&#12517;&#12540;&#12479;&#31185;&#23398;&#12395;&#12362;&#12356;&#12390;&#12424;&#12367;&#30693;&#12425;&#12428;&#12390;&#12356;&#12427;&#12497;&#12479;&#12540;&#12531;&#12434;&#22522;&#12395;&#27083;&#31689;&#12373;&#12428;&#12390;&#12356;&#12427;&#12496;&#12540;&#12472;&#12519;&#12531;&#31649;&#29702;&#12471;&#12473;&#12486;&#12512;&#12391;&#12377;&#12290;&#20302;&#27700;&#28310;&#12523;&#12540;&#12481;&#12531;&#12398;&#24375;&#21147;&#12394;&#12521;&#12452;&#12502;&#12521;&#12522;&#12540;&#12434;&#12289;&#38283;&#30330;&#32773;&#12392;&#21516;&#27096;&#12395;&#19968;&#33324;&#12398;&#12518;&#12540;&#12470;&#12540;&#12395;&#12418;&#20844;&#38283;&#12375;&#12390;&#12356;&#12414;&#12377;&#12290;&#12371;&#12428;&#12425;&#12399;Git&#33258;&#20307;&#12434;&#12373;&#12425;&#12395;&#27963;&#29992;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992;&#20986;&#26469;&#12427;&#24375;&#21147;&#12394;&#38283;&#30330;&#12484;&#12540;&#12523;&#12395;&#12418;&#12394;&#12426;&#12414;&#12377;&#12290;&#12371;&#12398;&#25480;&#26989;&#12391;&#12399;&#26222;&#27573;&#20351;&#12358;&#12384;&#12429;&#12358;&#12467;&#12510;&#12531;&#12489;&#12434;&#20351;&#29992;&#12379;&#12378;&#12395;&#12501;&#12449;&#12452;&#12523;&#12398;&#36861;&#21152;&#12392;&#12467;&#12511;&#12483;&#12488;&#12289;&#12502;&#12521;&#12531;&#12481;&#12398;&#20316;&#25104;&#12392;&#12510;&#12540;&#12472;&#12377;&#12427;&#26041;&#27861;&#12434;&#32057;&#20171;&#12375;&#12414;&#12377;&#12290;&lt;/p&gt;
+
+&lt;p&gt;&#25480;&#26989;&#12398;&#21442;&#21152;&#32773;&#12434;&#19968;&#30058;&#12525;&#12540;&#12524;&#12505;&#12523;&#12395;&#36899;&#12428;&#12390;&#34892;&#12365;&#12414;&#12377;&#12290;&#24213;&#12391;&#12377;&#12290;&#12467;&#12540;&#12489;&#12391;&#12377;&#12290;&#12450;&#12523;&#12468;&#12522;&#12474;&#12512;&#12391;&#12377;&#12290;&#12495;&#12483;&#12471;&#12517;&#38306;&#20418;&#32076;&#30001;&#12398;&#12494;&#12540;&#12489;&#21040;&#36948;&#24615;&#12395;&#12424;&#12387;&#12390;&#23450;&#12417;&#12425;&#12428;&#12383;&#12289;LZW&#22311;&#32302;&#12392;&#36933;&#24310;&#12460;&#12505;&#12540;&#12472;&#12467;&#12524;&#12463;&#12471;&#12519;&#12531;&#12395;&#12424;&#12387;&#12390;&#21177;&#29575;&#21270;&#12373;&#12428;&#12383;&#12495;&#12483;&#12471;&#12517;&#12499;&#12483;&#12488;&#12471;&#12540;&#12465;&#12531;&#12473;&#12398;&#26377;&#21521;&#38750;&#24033;&#22238;&#12464;&#12521;&#12501;&#12290;&lt;/p&gt;
+
+&lt;p&gt;&#25105;&#12293;&#12399;&#29289;&#12364;&#12393;&#12358;&#12420;&#12387;&#12390;&#21205;&#12367;&#12363;&#12434;&#27491;&#30906;&#12395;&#30693;&#12426;&#12383;&#12356;&#12375;&#12289;&#30693;&#12427;&#24517;&#35201;&#12364;&#12354;&#12426;&#12414;&#12377;&#12290;Git&#12398;&#22885;&#28145;&#12367;&#12414;&#12391;&#25496;&#12387;&#12390;&#12356;&#12365;&#12414;&#12375;&#12423;&#12358;&#12290;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Schedule&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;City&lt;/th&gt;
+&lt;th&gt;Details&lt;/th&gt;
+&lt;th&gt;Registration&lt;/th&gt;
+&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;15 Nov&lt;/td&gt;
+&lt;td&gt;Tokyo&lt;/td&gt;
+&lt;td&gt;17:00-21:00 @ &lt;a href=&quot;https://maps.google.co.jp/maps?q=tokyo+midtown&amp;amp;safe=off&amp;amp;ie=UTF-8&amp;amp;ei=PgNxUo3zDKKrjAL_moDIAQ&amp;amp;sqi=2&amp;amp;ved=0CAgQ_AUoAg&quot;&gt;Yahoo Japan!&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://connpass.com/event/3808&quot;&gt;Registration required&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;17 Nov&lt;/td&gt;
+&lt;td&gt;Nagoya&lt;/td&gt;
+&lt;td&gt;17:00-20:00 @ &lt;a href=&quot;https://www.google.co.jp/maps?ll=35.174392,136.881457&quot;&gt;Ateam&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://connpass.com/event/3971/&quot;&gt;Registration required&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;19 Nov&lt;/td&gt;
+&lt;td&gt;Kyoto&lt;/td&gt;
+&lt;td&gt;17:00-21:00 @ &lt;a href=&quot;http://goo.gl/9SZR3E&quot;&gt;Kyoto Research Park&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://atnd.org/events/45117&quot;&gt;Registration required&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;h4&gt;Drinkups in Japan&lt;/h4&gt;
+
+&lt;p&gt;We haven't confirmed all of the details yet, but we will be hosting a few drinkups in Japan as well. Keep an eye on the blog for announcements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:jp:&quot; alt=&quot;:jp:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/jp.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt; Drinkups (&#25031;&#35242;&#20250;&#65289;&lt;/p&gt;
+
+&lt;p&gt;&#12414;&#12384;&#27770;&#23450;&#12373;&#12428;&#12390;&#12356;&#12394;&#12356;&#35443;&#32048;&#12418;&#12354;&#12426;&#12414;&#12377;&#12364;&#12289;Talks&#12392;&#19968;&#32210;&#12395;Drinkups&#12434;&#26085;&#26412;&#12391;&#38283;&#20652;&#12375;&#12414;&#12377;&#12290;&#26032;&#12375;&#12356;&#24773;&#22577;&#12364;&#27770;&#12414;&#12426;&#27425;&#31532;&#12371;&#12398;&#12502;&#12525;&#12464;&#12391;&#30330;&#34920;&#12375;&#12414;&#12377;&#12290;&lt;/p&gt;</content>
+    <media:thumbnail url="https://0.gravatar.com/avatar/efc09baeb94ed440b185710062c8956d?d=https%3A%2F%2Fidenticons.github.com%2F42dae262b8531b3df48cde9cc018c512.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>johndbritton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1676</id>
+    <published>2013-10-30T15:16:22-07:00</published>
+    <updated>2013-10-30T15:16:22-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1676-introducing-octokit-net"/>
+    <title>Introducing Octokit.net</title>
+    <category>ship</category>
+    <content type="html">&lt;p&gt;Octokit is a family of client libraries for the GitHub API. &lt;a href=&quot;https://github.com/blog/1517-introducing-octokit&quot;&gt;Back in May&lt;/a&gt;, we released Octokit libraries for &lt;a href=&quot;https://github.com/octokit/octokit.rb&quot;&gt;Ruby&lt;/a&gt; and &lt;a href=&quot;https://github.com/octokit/octokit.objc&quot;&gt;Objective-C&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Today we're releasing the third member of the Octokit family, &lt;a href=&quot;https://github.com/octokit/octokit.net&quot;&gt;Octokit.net&lt;/a&gt;, the GitHub API toolkit for .NET developers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/19977/1395788/45b9de66-3c45-11e3-89ec-8c9a655d8df5.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/19977/1395788/45b9de66-3c45-11e3-89ec-8c9a655d8df5.png&quot; alt=&quot;octokit libraries&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/octokit/octokit.net&quot;&gt;Octokit.net&lt;/a&gt; is used in &lt;a href=&quot;https://windows.github.com/&quot;&gt;GitHub for Windows&lt;/a&gt; and provides an async-based API using &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.aspx&quot;&gt;HttpClient&lt;/a&gt;. Octokit.net requires .NET 4.5 or later.&lt;/p&gt;
+
+&lt;p&gt;The &quot;Octokit&quot; package is &lt;a href=&quot;http://www.nuget.org/packages/octokit&quot;&gt;available through NuGet&lt;/a&gt;. For Reactive Extensions (Rx) fans, we also have an IObservable-based &quot;&lt;a href=&quot;https://www.nuget.org/packages/octokit.reactive&quot;&gt;Octokit.Reactive&lt;/a&gt;&quot; companion package.&lt;/p&gt;
+
+&lt;p&gt;We can't wait to see what you'll build with it.&lt;/p&gt;</content>
+    <media:thumbnail url="https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?d=https%3A%2F%2Fidenticons.github.com%2F708633e902f815941088bda74ddfa8d8.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>Haacked</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1675</id>
+    <published>2013-10-30T05:35:10-07:00</published>
+    <updated>2013-10-31T10:45:43-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1675-disabling-old-ip-addresses"/>
+    <title>Disabling old IP addresses</title>
+    <category>engineering</category>
+    <content type="html">&lt;p&gt;We've made some significant upgrades to the network infrastructure powering GitHub, and it's time to turn off some of the old gear. We've updated DNS records to point at our new IP space, but continue to see a steady trickle of requests to IP addresses long since removed from DNS.&lt;/p&gt;
+
+&lt;p&gt;On Tuesday, November 5th 2013, at 12pm Pacific Time, we'll stop serving all HTTP, Git, and SSH requests to IP addresses that aren't returned from DNS queries for the following domains:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;github.com&lt;/li&gt;
+&lt;li&gt;gist.github.com&lt;/li&gt;
+&lt;li&gt;api.github.com&lt;/li&gt;
+&lt;li&gt;raw.github.com&lt;/li&gt;
+&lt;li&gt;ssh.github.com&lt;/li&gt;
+&lt;li&gt;wiki.github.com&lt;/li&gt;
+&lt;li&gt;assets.github.com&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;This won't affect you if you don't have any &lt;code&gt;/etc/hosts&lt;/code&gt; entries for any of the above domains.&lt;/strong&gt; However, if you've added &lt;code&gt;github.com&lt;/code&gt; or any of the listed domains to &lt;code&gt;/etc/hosts&lt;/code&gt; over the last few years, you'll need to remove those entries or GitHub will stop working for you next Tuesday at noon. Take a quick look at your &lt;code&gt;/etc/hosts&lt;/code&gt; and/or your Puppet/Chef manifests to make sure you're ready to go!&lt;/p&gt;
+
+&lt;p&gt;Please note that our DNS servers are configured to automatically return the IP address of a random, healthy load balancer for queries for the above records. If you have an existing &lt;code&gt;/etc/hosts&lt;/code&gt; entry, we highly recommend &lt;strong&gt;not&lt;/strong&gt; replacing it, but rather removing it entirely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: If you're on Windows, you'll want to check &lt;code&gt;%SystemRoot%\system32\drivers\etc\hosts&lt;/code&gt; for anything matching &lt;code&gt;github.com&lt;/code&gt;. If there are no entries there and you're still seeing a warning on GitHub.com, please send your network administrator a link to this blog post!&lt;/p&gt;</content>
+    <media:thumbnail url="https://2.gravatar.com/avatar/f317439da90c3176adc8938bcf5181ff?d=https%3A%2F%2Fidenticons.github.com%2F67c6a1e7ce56d3d6fa748ab6d9af3fd7.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>jnewland</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1674</id>
+    <published>2013-10-30T05:10:11-07:00</published>
+    <updated>2013-10-30T06:00:57-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1674-github-game-off-ii"/>
+    <title>GitHub Game Off II</title>
+    <category>watercooler</category>
+    <content type="html">&lt;p&gt;We ran our very &lt;a href=&quot;https://github.com/blog/1337-github-game-off-winners&quot;&gt;first game jam last year&lt;/a&gt; and had so much fun, we decided to throw another one!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/121322/1436486/25f88b78-4158-11e3-9b23-43596516362c.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/121322/1436486/25f88b78-4158-11e3-9b23-43596516362c.png&quot; alt=&quot;GitHub Game Off Game Jam&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;You have the entire month of November to create a &lt;strong&gt;web-based&lt;/strong&gt; game &lt;em&gt;loosely&lt;/em&gt; based on the theme &quot;change&quot;.&lt;/p&gt;
+
+&lt;p&gt;What do we mean by &lt;strong&gt;loosely&lt;/strong&gt; based on &quot;change&quot;? We literally mean, &lt;em&gt;loosely&lt;/em&gt; based. Some examples might be a FPS where you throw the &lt;a href=&quot;http://www.merriam-webster.com/dictionary/loose%20change&quot;&gt;loose change&lt;/a&gt; in your pockets at the enemy or perhaps a puzzle game where you have to &lt;a href=&quot;http://www.merriam-webster.com/dictionary/change&quot;&gt;change&lt;/a&gt; form to overcome obstacles.&lt;/p&gt;
+
+&lt;p&gt;Your game. Your rules. You can participate either as an individual or as a team. You're encouraged to use open source libraries, frameworks, graphics, and sounds in your game.&lt;/p&gt;
+
+&lt;h2&gt;The Prizes&lt;/h2&gt;
+
+&lt;p&gt;We're giving away shiny new &lt;a href=&quot;http://www.apple.com/ipad-air/&quot;&gt;iPad Airs&lt;/a&gt; (16GB models) to our 5 lucky winners. Runners-up will receive a $100 credit for the &lt;a href=&quot;http://shop.github.com/&quot;&gt;GitHub Shop&lt;/a&gt;, where they can grab some of our &lt;img class=&quot;emoji&quot; title=&quot;:octocat:&quot; alt=&quot;:octocat:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/octocat.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt; shirts, hoodies, stickers, and more!&lt;/p&gt;
+
+&lt;p&gt;All winners and runners-up will be showcased on our blog.&lt;/p&gt;
+
+&lt;h2&gt;Judging&lt;/h2&gt;
+
+&lt;p&gt;We have a handful of judges who are eager to play your games!  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://twitter.com/adamatomic&quot;&gt;Adam 'Atomic' Saltsman&lt;/a&gt; - Game maker and dad, creator of Canabalt and Flixel.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://twitter.com/Aleissia&quot;&gt;Aleissia Laidacker&lt;/a&gt; - Team Lead AI at Ubisoft.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://twitter.com/CzarneckiD&quot;&gt;David Czarnecki&lt;/a&gt;, Lead Engineer at Agora Games.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://twitter.com/richtaur&quot;&gt;Matt Hackett&lt;/a&gt;, Co-founder of Lost Decade Games.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://twitter.com/bearwitched&quot;&gt;Kyros Starr&lt;/a&gt;, Gaymer and Tech Writer at GitHub.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://twitter.com/leereilly&quot;&gt;Lee Reilly&lt;/a&gt;, Gamer Dad and Software Developer at GitHub.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://twitter.com/Manak/&quot;&gt;Romana Ramzan&lt;/a&gt;, Denki's Player Champion, Global Game Jam Director.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;The Rules&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To qualify for entry, you must fork the &lt;a href=&quot;https://github.com/github/game-off-2013&quot;&gt;github/game-off-2013&lt;/a&gt; repository to your individual or organization account. Not sure which account type would be best for you? Check out this handy &lt;a href=&quot;https://help.github.com/articles/what-s-the-difference-between-user-and-organization-accounts&quot;&gt;help article&lt;/a&gt;, which explains the differences between the two types of accounts.&lt;/li&gt;
+&lt;li&gt;All entries must be web-based, i.e. playable in a browser. HTML5, WebGL, Unity, Torque 3D, Node JS, and Flash are all possible - just be sure the source is made available on your fork.&lt;/li&gt;
+&lt;li&gt;You must be over the age of 13.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;Instructions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you don't already have a GitHub account, &lt;a href=&quot;https://github.com/signup/free&quot;&gt;sign up for a personal account now&lt;/a&gt; - it's free!&lt;/li&gt;
+&lt;li&gt;Fork the &lt;a href=&quot;https://github.com/github/game-off-2013&quot;&gt;github/game-off-2013&lt;/a&gt; repository to your individual account (or to a &lt;a href=&quot;https://github.com/organizations/new&quot;&gt;free organization account&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Be sure to follow &lt;a href=&quot;https://twitter.com/github&quot;&gt;@github&lt;/a&gt; on Twitter for updates.&lt;/li&gt;
+&lt;li&gt;Make sure your code is pushed to the master branch of your forked repository before Dec 1st!&lt;/li&gt;
+&lt;li&gt;Make sure you have a &lt;code&gt;README&lt;/code&gt; file that includes a brief description of your game, what open source projects (if any) you used, and a screenshot.&lt;/li&gt;
+&lt;li&gt;Your repository should have a brief description and the playable URL entered into the fields shown below (this will make our judging process easier):&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/121322/1436584/fd721126-415a-11e3-9f3a-e94262074573.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/121322/1436584/fd721126-415a-11e3-9f3a-e94262074573.png&quot; alt=&quot;image&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments / Questions / Help&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New to Git, GitHub, and/or version control? Check out our &lt;a href=&quot;https://help.github.com/&quot;&gt;help documentation&lt;/a&gt; to get started!&lt;/li&gt;
+&lt;li&gt;Questions about Git/GitHub? Please email &lt;a href=&quot;mailto:support@github.com&quot;&gt;support@github.com&lt;/a&gt; and be sure to include 'GitHub Game Off' in the subject.&lt;/li&gt;
+&lt;li&gt;Questions specific to the GitHub Game Off? Please &lt;a href=&quot;https://github.com/github/game-off-2013/issues/new&quot;&gt;create an issue&lt;/a&gt;. This will be the official FAQ.&lt;/li&gt;
+&lt;li&gt;The official Twitter hashtag is &lt;a href=&quot;https://twitter.com/search/realtime?q=%23ggo13&quot;&gt;#ggo13&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <media:thumbnail url="https://2.gravatar.com/avatar/8058c2c00149cbe4104ddc9fa814443f?d=https%3A%2F%2Fidenticons.github.com%2Ffa398c999891bb8a356e980ebcc6dd0c.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>leereilly</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1673</id>
+    <published>2013-10-29T09:13:30-07:00</published>
+    <updated>2013-10-29T09:13:30-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1673-shanghai-drinkup"/>
+    <title>Shanghai Drinkup</title>
+    <category>drinkup</category>
+    <content type="html">&lt;p&gt;Hello Shanghai!&lt;/p&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://github.com/bhuga&quot; class=&quot;user-mention&quot;&gt;@bhuga&lt;/a&gt; and &lt;a href=&quot;https://github.com/PeterBell&quot; class=&quot;user-mention&quot;&gt;@PeterBell&lt;/a&gt; for a drinkup to kick off &lt;a href=&quot;http://www.qconshanghai.com/&quot;&gt;QCon Shanghai&lt;/a&gt; this Thursday! You don't need to attend the conference to join us, and you don't need to be drinking, either. We're looking forward to meeting you!&lt;/p&gt;
+
+&lt;p&gt;The Details&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Beni Coffee and Bar - &#36125;&#23612;&#37202;&#21543;&lt;/li&gt;
+&lt;li&gt;Where:  705 Yongjia Road, Xuhui District - &#19978;&#28023;&#24464;&#27719;&#21306;&#27704;&#22025;&#36335;705&#21495;(&#34913;&#23665;&#36335;&#21475;)&lt;/li&gt;
+&lt;li&gt;When: 7:30PM, October 31st &lt;img class=&quot;emoji&quot; title=&quot;:jack_o_lantern:&quot; alt=&quot;:jack_o_lantern:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/jack_o_lantern.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt; - 10&#26376;31&#26085;&#26202;7&#65306;00&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/12676/1425975/ab478c4e-4053-11e3-9cf1-90214724a254.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/12676/1425975/ab478c4e-4053-11e3-9cf1-90214724a254.jpg&quot; alt=&quot;beni cafe interior&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hope to see you there! &lt;/p&gt;</content>
+    <media:thumbnail url="https://1.gravatar.com/avatar/fcb052cb03de0357fc30978d9434bcb4?d=https%3A%2F%2Fidenticons.github.com%2F32cfba8a13694631a8418e4d246e55fa.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>bhuga</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1665</id>
+    <published>2013-10-28T11:40:27-07:00</published>
+    <updated>2013-10-28T11:40:27-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1665-arfon-smith-is-a-githubber"/>
+    <title>Arfon Smith is a GitHubber!</title>
+    <category>hire</category>
+    <content type="html">&lt;p&gt;You might know Arfon from his thesis on &lt;a href=&quot;http://arfon.org/thesis&quot;&gt;Dust and Molecules in Interstellar, Circumstellar and Extragalactic Environments&lt;/a&gt; or maybe from his work co-founding the &lt;a href=&quot;https://www.zooniverse.org/&quot;&gt;Zooniverse&lt;/a&gt;, but we know him as a genuinely stellar human with a passion for science and open collaboration and this week we couldn't be more excited to welcome him to the GitHub team.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github-images.s3.amazonaws.com/blog/2013/hires/arfon-smith.gif&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://github-images.s3.amazonaws.com/blog/2013/hires/arfon-smith.gif&quot; alt=&quot;&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Find him as &lt;a href=&quot;https://github.com/arfon&quot;&gt;@arfon&lt;/a&gt; on GitHub. Follow him on &lt;a href=&quot;https://twitter.com/arfon&quot;&gt;Twitter&lt;/a&gt;. And stay tuned for more GitHub Science goodness coming your way.&lt;/p&gt;
+
+&lt;p&gt;P.S. This galaxy-gif-fest is made up of over 30,000 images taken from the &lt;a href=&quot;http://www.sdss.org/&quot;&gt;Sloan Digital Sky Survey&lt;/a&gt;.&lt;/p&gt;</content>
+    <media:thumbnail url="https://1.gravatar.com/avatar/2f4861b27dc35663ed271d39f5358261?d=https%3A%2F%2Fidenticons.github.com%2Fdd36046ba6b2654c412cea114af88ddd.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>tclem</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1664</id>
+    <published>2013-10-25T14:58:53-07:00</published>
+    <updated>2013-10-25T14:58:53-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1664-kate-tokar-is-a-githubber"/>
+    <title>Kate Tokar is a GitHubber!</title>
+    <category>hire</category>
+    <content type="html">&lt;p&gt;Kate Tokar joins GitHub as an Executive Assistant to help Eric Hall and the Sales team. Hive-five!&lt;/p&gt;
+
+&lt;p&gt;Brand new to SF, she has previously lived in El Salvador, Florence, the Adriatic Coast of Italy, Philadelphia, NYC, and Madrid.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/72919/1410514/85712864-3da5-11e3-8104-7dba76285223.gif&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/72919/1410514/85712864-3da5-11e3-8104-7dba76285223.gif&quot; alt=&quot;&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;She once worked for a Spanish Count.
+Not &lt;a href=&quot;https://github.com/vmg&quot; class=&quot;user-mention&quot;&gt;@vmg&lt;/a&gt;. Or this one...
+&lt;a href=&quot;https://f.cloud.github.com/assets/1832459/1377046/8196dc88-3a9f-11e3-9d47-6115dd29debc.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/1832459/1377046/8196dc88-3a9f-11e3-9d47-6115dd29debc.png&quot; alt=&quot;count_von_count_kneeling&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kate can be found at &lt;a href=&quot;https://github.com/katetokar&quot;&gt;@katetokar&lt;/a&gt;&lt;/p&gt;</content>
+    <media:thumbnail url="https://1.gravatar.com/avatar/4acc63ae1aa498456019c1887c018adb?d=https%3A%2F%2Fidenticons.github.com%2F5e89f70b5eb887cda663827008853791.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>ekb</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1670</id>
+    <published>2013-10-24T14:42:02-07:00</published>
+    <updated>2013-10-24T14:42:02-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1670-london-drinkup"/>
+    <title>London Drinkup</title>
+    <category>drinkup</category>
+    <content type="html">&lt;p&gt;Hello internet, &lt;img class=&quot;emoji&quot; title=&quot;:gb:&quot; alt=&quot;:gb:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/gb.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt; London is a happening place in October! &lt;/p&gt;
+
+&lt;p&gt;There are a number of GitHubbers in town for conferences galore, including the awesome &lt;img class=&quot;emoji&quot; title=&quot;:ok_woman:&quot; alt=&quot;:ok_woman:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/ok_woman.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt;&lt;a href=&quot;http://www.ladieswhocode.com/2013/&quot;&gt;Ladies Who Code&lt;/a&gt;! Join me, &lt;a href=&quot;https://github.com/juliamae&quot; class=&quot;user-mention&quot;&gt;@juliamae&lt;/a&gt;, &lt;a href=&quot;https://github.com/benbalter&quot; class=&quot;user-mention&quot;&gt;@benbalter&lt;/a&gt;, &lt;a href=&quot;https://github.com/mdo&quot; class=&quot;user-mention&quot;&gt;@mdo&lt;/a&gt;, &lt;a href=&quot;https://github.com/connors&quot; class=&quot;user-mention&quot;&gt;@connors&lt;/a&gt;, and fellow GitHub users at the LWC after party for some lovely chats and drinks. &lt;img class=&quot;emoji&quot; title=&quot;:heart:&quot; alt=&quot;:heart:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/heart.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;Details&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;strong&gt;Saturday, October 26&lt;/strong&gt; at 18:00&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Electricity Showrooms&lt;/strong&gt; 39A Hoxton Square, London N1 6NN (near Old Street station) (&lt;a href=&quot;https://maps.google.co.uk/maps?q=39A+Hoxton+Square,+London+N1+6NN&quot;&gt;&lt;img class=&quot;emoji&quot; title=&quot;:mag_right:&quot; alt=&quot;:mag_right:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/mag_right.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;The drinkup will kick off at the basement bar with a light-up dancefloor!&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Come on out and meet your fellow London techies- &lt;strong&gt;everyone is welcome&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/1153134/1402878/fa44fac8-3cea-11e3-9d85-8519e51be955.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/1153134/1402878/fa44fac8-3cea-11e3-9d85-8519e51be955.png&quot; alt=&quot;image&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://render.github.com/view/geojson?url=https://gist.github.com/muan/ef1a82603478152c0bc0/raw/electricity-showrooms.geojson&quot;&gt;&lt;/iframe&gt;</content>
+    <media:thumbnail url="https://0.gravatar.com/avatar/3aeb5655cf56bb8cc5583da71c757dc4?d=https%3A%2F%2Fidenticons.github.com%2Ff1834dbb1aec7fa9355ef4da9d254b62.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>muan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1666</id>
+    <published>2013-10-24T13:47:19-07:00</published>
+    <updated>2013-10-24T13:47:19-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1666-scott-barron-is-a-githubber"/>
+    <title>Scott Barron is a GitHubber!</title>
+    <category>hire</category>
+    <content type="html">&lt;p&gt;With a GitHub username like &lt;a href=&quot;https://github.com/rubyist&quot;&gt;@rubyist&lt;/a&gt; and an &lt;a href=&quot;https://api.github.com/users/rubyist&quot;&gt;enviously low user_id&lt;/a&gt;, it's amazing we've taken this long to hire Scott. We know Scott from his long standing work in the Ruby community, his notorious Michigan upbringing, and his love of huskies. We are really excited to see his engineering expertise and knowledge turned loose on our product.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/72919/1402178/9b834264-3ce1-11e3-9107-86c0f4e30277.gif&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/72919/1402178/9b834264-3ce1-11e3-9107-86c0f4e30277.gif&quot; alt=&quot;&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can keep up with Scott's work on &lt;a href=&quot;https://github.com/rubyist&quot;&gt;GitHub&lt;/a&gt; or find him on &lt;a href=&quot;https://twitter.com/rubyist&quot;&gt;Twitter&lt;/a&gt; waxing philosophical about the A-Team.&lt;/p&gt;</content>
+    <media:thumbnail url="https://1.gravatar.com/avatar/2f4861b27dc35663ed271d39f5358261?d=https%3A%2F%2Fidenticons.github.com%2Fdd36046ba6b2654c412cea114af88ddd.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>tclem</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1669</id>
+    <published>2013-10-24T10:28:16-07:00</published>
+    <updated>2013-10-24T10:28:16-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1669-stay-in-sync-with-github-for-windows"/>
+    <title>Stay in sync with GitHub for Windows</title>
+    <category>ship</category>
+    <content type="html">&lt;p&gt;Today we released an update to GitHub for Windows allowing you to quickly see when a branch is no longer in sync with its remote.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/634063/1401060/b5d636e2-3ccf-11e3-98f5-96a2441a29bc.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/634063/1401060/b5d636e2-3ccf-11e3-98f5-96a2441a29bc.png&quot; width=&quot;480&quot; alt=&quot;Branch status&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Right next to the sync button you'll now see how many commits ahead and behind your local branch is compared to its remote. We'll automatically update it for you or you can press F5 to refresh it manually.&lt;/p&gt;
+
+&lt;p&gt;In addition, you can now press the sync button at any time to get the latest changes from the remote, even before GitHub for Windows has detected them.&lt;/p&gt;
+
+&lt;p&gt;Happy syncing!&lt;/p&gt;</content>
+    <media:thumbnail url="https://1.gravatar.com/avatar/6a5363736485a5672485809f47b27273?d=https%3A%2F%2Fidenticons.github.com%2F220760df33773047c2c602565b0e34b5.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>niik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1668</id>
+    <published>2013-10-22T11:25:16-07:00</published>
+    <updated>2013-10-22T11:25:16-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1668-passion-projects-with-jen-myers"/>
+    <title>Passion Projects with Jen Myers</title>
+    <category>drinkup</category>
+    <content type="html">&lt;p&gt;Join us on Tuesday, October 29th, for the next event in our &lt;a href=&quot;http://passion-projects.github.com/&quot;&gt;Passion Projects&lt;/a&gt; talk series with designer &lt;a href=&quot;https://twitter.com/antiheroine&quot;&gt;Jen Myers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/631369/1378069/cb798596-3abb-11e3-9e9d-ff000c6ea658.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/631369/1378069/cb798596-3abb-11e3-9e9d-ff000c6ea658.jpg&quot; alt=&quot;Jen Myers&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Jen is a web designer and developer and part of the instructor team at &lt;a href=&quot;http://devbootcamp.com/&quot;&gt;Dev Bootcamp&lt;/a&gt; in Chicago. In 2011, she founded the Columbus, Ohio chapter of &lt;a href=&quot;http://www.girldevelopit.com/&quot;&gt;Girl Develop It&lt;/a&gt;, an organization that provides intro coding classes aimed at women, and currently co-leads the Girl Develop It Chicago chapter. She speaks regularly about design, development and diversity, and focuses on finding new ways to make both technology and technology education accessible to everyone. You can find Jen Myers on &lt;a href=&quot;https://github.com/jenmyers&quot;&gt;GitHub&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/antiheroine&quot;&gt;Twitter&lt;/a&gt;, and on &lt;a href=&quot;http://jenmyers.net/&quot;&gt;her personal site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About the event:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;strong&gt;When?&lt;/strong&gt; Tuesday, October 29th from 6:30-8:00pm&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Where?&lt;/strong&gt; GitHub HQ, 88 Colin P. Kelly Junior St., San Francisco, CA&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Space is limited&lt;/strong&gt; &#8212; you must &lt;a href=&quot;https://tito.io/passion-projects/jen-myers&quot;&gt;register&lt;/a&gt; to attend this event.&lt;/li&gt;
+&lt;/ul&gt;&lt;iframe src=&quot;https://render.github.com/view/geojson?url=https://gist.github.com/nrrrdcore/6674602/raw/GitHub-HQ.geojson&quot;&gt;&lt;/iframe&gt;</content>
+    <media:thumbnail url="https://2.gravatar.com/avatar/8209444173472be8823f570f77ed8b8b?d=https%3A%2F%2Fidenticons.github.com%2Ff156c6260b73f58ff12371856469c5f3.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>nrrrdcore</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1667</id>
+    <published>2013-10-22T10:03:57-07:00</published>
+    <updated>2013-10-24T13:30:03-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1667-2013-dodgeball-tournament"/>
+    <title>2013 Dodgeball Tournament</title>
+    <category>watercooler</category>
+    <content type="html">&lt;p&gt;Last year, 20 teams faced off on the dodgeball court, (in the name of charity, of course). It was a ton of fun, and we were able to raise over $62,000 to give to four amazing non-profits.&lt;/p&gt;
+
+&lt;p&gt;We hope you'll join us this year, for the &lt;a href=&quot;http://dodgeball.github.com/&quot;&gt;3rd annual GitHub Dodgeball Tournament&lt;/a&gt;! &lt;/p&gt;
+
+&lt;iframe src=&quot;//player.vimeo.com/video/53543447?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ff0179&quot; width=&quot;623&quot; height=&quot;350&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;We've brought back the folks from the &lt;a href=&quot;http://dodgeball4ever.com/&quot;&gt;World Dodgeball Society&lt;/a&gt; to help with the tournament. This year, we have room for 22 teams to compete in the tournament next month. All you need to compete is 10 to 15 of your strongest co-workers or friends, a donation of $3,000, and &lt;a href=&quot;http://dodgeball.github.com/&quot;&gt;to register&lt;/a&gt;. Then join us Sunday, November 17th at the SoMa Recreation Center!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/443094/1377730/d9835e8a-3aae-11e3-84b2-1661ae144ceb.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/443094/1377730/d9835e8a-3aae-11e3-84b2-1661ae144ceb.jpg&quot; alt=&quot;350_5821_kb_1307&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/443094/1377734/e49472dc-3aae-11e3-92b0-53db26d3e4fa.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/443094/1377734/e49472dc-3aae-11e3-92b0-53db26d3e4fa.jpg&quot; alt=&quot;368_5821_kb_1411&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We will all be playing for four amazing local charities:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.shfb.org/&quot;&gt;Second Harvest Food Bank&lt;/a&gt;: mobilizes individuals, companies, and community partners to connect people to the nutritious food they need.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.streetside.org/&quot;&gt;Streetside Stories&lt;/a&gt;: cultivates young people's voices to develop literacy and arts skills, fosters educational equity, values diversity, and builds community.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.familyhouseinc.org/&quot;&gt;Family House&lt;/a&gt;: Provides housing and support for low-income families of children with cancer or life-threatening illnesses. &lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.yearup.org/&quot;&gt;Year Up&lt;/a&gt;: Inspiring students to pursue careers in science and technology.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;The Facts:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What: The Second Annual Octocat Dodgeball Invitational&lt;/li&gt;
+&lt;li&gt;Where: SoMa Rec Center, &lt;a href=&quot;http://goo.gl/maps/Jc1OT&quot;&gt;270 6th Street&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;When: Sunday, November 17th from 1:00pm - 6:30pm
+
+&lt;ul&gt;
+&lt;li&gt;1:00 to 1:30 - Sign in and warm up&lt;/li&gt;
+&lt;li&gt;1:30 to 4:30 - Tournament play&lt;/li&gt;
+&lt;li&gt;5:00 to 6:00 - Finals&lt;/li&gt;
+&lt;li&gt;6:00 to 6:30 - Awards ceremony&lt;/li&gt;
+&lt;li&gt;7:00pm - After-party, details coming soon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Register here: &lt;a href=&quot;http://dodgeball.github.com/&quot;&gt;http://dodgeball.github.com/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content>
+    <media:thumbnail url="https://1.gravatar.com/avatar/060dc0e5e351d467dec8bb4936bde683?d=https%3A%2F%2Fidenticons.github.com%2F2c697f607e25f78f66cd51b7ec26f5bc.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>kamzilla</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1663</id>
+    <published>2013-10-21T08:25:48-07:00</published>
+    <updated>2013-10-21T08:25:48-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1663-nairobi-drinkup"/>
+    <title>Nairobi Drinkup</title>
+    <category>drinkup</category>
+    <content type="html">&lt;p&gt;I'm in Nairobi for &lt;a href=&quot;http://www.demo-africa.com/&quot;&gt;DEMO Africa&lt;/a&gt; this week. But before I check out all the inspiring tech projects in East Africa I thought it would be cool to get some hackers together tomorrow night for &lt;img class=&quot;emoji&quot; title=&quot;:beers:&quot; alt=&quot;:beers:&quot; src=&quot;https://github.global.ssl.fastly.net/images/icons/emoji/beers.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot;&gt; and chat.&lt;/p&gt;
+
+&lt;p&gt;So please join me, along with my new friends from the &lt;a href=&quot;http://africahacktrip.org/&quot;&gt;AfricaHackTrip&lt;/a&gt;, at &lt;a href=&quot;http://www.thebigfivebreweries.com&quot;&gt;Brew Bistro&lt;/a&gt;, for the first ever GitHub Drinkup in Kenya!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://f.cloud.github.com/assets/1469659/1373294/141c6f54-3a60-11e3-9225-9dfdd988a7ed.gif&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://f.cloud.github.com/assets/1469659/1373294/141c6f54-3a60-11e3-9225-9dfdd988a7ed.gif&quot; alt=&quot;image003&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Facts:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;&quot;&gt;Brew Bistro&lt;/a&gt; - &lt;a href=&quot;https://maps.google.com/?q=Piedmont+Plaza+,+671+Ngong+Road,+Nairobi,+Kenya&quot;&gt;Piedmont Plaza , 671 Ngong Road, Nairobi, Kenya&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Tuesday, October 22 at 8:00pm&lt;/li&gt;
+&lt;/ul&gt;&lt;iframe src=&quot;https://render.github.com/view/geojson?url=https://gist.github.com/lukehefson/8e971749f817a8a6f639/raw/nairobi-drinkup.geojson&quot;&gt;&lt;/iframe&gt;</content>
+    <media:thumbnail url="https://0.gravatar.com/avatar/6acbc27c14ce19bf80cdee68f690ebed?d=https%3A%2F%2Fidenticons.github.com%2F5e226b6edbf0ba34c1e48460a5d794e7.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>lukehefson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Post/1662</id>
+    <published>2013-10-18T15:50:57-07:00</published>
+    <updated>2013-10-18T15:50:57-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/blog/1662-beijing-drinkup"/>
+    <title>Beijing Drinkup</title>
+    <category>drinkup</category>
+    <content type="html">&lt;p&gt;I'll be in Beijing with &lt;a href=&quot;https://github.com/dannygreg&quot; class=&quot;user-mention&quot;&gt;@dannygreg&lt;/a&gt; for &lt;a href=&quot;http://rubyconfchina.org&quot;&gt;RubyConf China&lt;/a&gt; next week, so join us next Friday for some drinks and fun at CheKu Cafe! You don't need to attend the conference to join us (and you don't have to be drinking alcohol either!). We hope you'll come say hello!&lt;/p&gt;
+
+&lt;h3&gt;The Details&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.chekucafe.com&quot;&gt;CheKu Cafe&lt;/a&gt; (&#36710;&#24211;&#21654;&#21857;)&lt;/li&gt;
+&lt;li&gt;2nd Floor, XingDing Hotel, 48#, Book City, West Street of HaiDing, Beijing (&#28023;&#28096;&#35199;&#22823;&#34903; 48 &#21495;&#22270;&#20070;&#22478;&#27493;&#34892;&#34903;&#20869;&#37995;&#40718;&#23486;&#39302;&#20108;&#23618;)&lt;/li&gt;
+&lt;li&gt;7:30 PM, Oct 25th (10 &#26376; 25 &#21495;&#26202;&#19978; 7:30)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Hope to see you there!&lt;/p&gt;</content>
+    <media:thumbnail url="https://0.gravatar.com/avatar/78b475797a14c84799063c7cd073962f?d=https%3A%2F%2Fidenticons.github.com%2Fc315f0320b7cd4ec85756fac52d78076.png&amp;r=x&amp;s=60"/>
+    <author>
+      <name>holman</name>
+    </author>
+  </entry>
+</feed>
