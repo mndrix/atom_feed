@@ -17,7 +17,7 @@ Parse and query [Atom Syndication Feeds](http://www.ietf.org/rfc/rfc4287.txt).  
 
 # Changes in this Version
 
-  * First public release
+  * Support new_feed/2 directly from a URL
 
 # Installation
 

@@ -1,8 +1,8 @@
 name(atom_feed).
 title('Atom Syndication Format').
 
-version('0.0.1').
-download('http://packs.ndrix.com/atom_feed/atom_feed-0.0.1.tgz').
+version('0.0.2').
+download('http://packs.ndrix.com/atom_feed/atom_feed-0.0.2.tgz').
 
 requires(delay).
 
