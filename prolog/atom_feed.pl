@@ -15,6 +15,7 @@
 
 :- use_module(library(charsio), [open_chars_stream/2]).
 :- use_module(library(delay)).
+:- use_module(library(http/http_open), [http_open/3]).
 :- use_module(library(sgml), [load_sgml/3]).
 :- use_module(library(xpath)).
 
@@ -32,6 +33,7 @@ delay:mode(system:atomic_list_concat(_,ground,ground)).
 %    * file(File) - a file name to read from
 %    * atom(Atom) - Atom XML in an atom
 %    * codes(Codes) - Atom XML in a list of codes
+%    * url(Url) - a URL to fetch
 %
 % This is the first step in working with an Atom feed.
 new_feed(stream(Stream), feed(Tree)) :-
@@ -44,6 +46,11 @@ new_feed(atom(Atom), Feed) :-
 new_feed(codes(Codes), Feed) :-
     open_chars_stream(Codes, Stream),
     new_feed(stream(Stream), Feed).
+new_feed(url(Url), Feed) :-
+    setup_call_cleanup( http_open(Url, Stream, [timeout(10)])
+                      , new_feed(stream(Stream), Feed)
+                      , close(Stream)
+                      ).
 
 
 % convenience for new_feed/2 when parsing XML
