@@ -27,3 +27,23 @@
     href(Link, Hub),
     Hub == 'http://pubsubhubbub.appspot.com/',
     !.  % cut search through other links
+
+'cato: surveillance' :-
+    new_feed(file('samples/cato.xml'), Feed),
+    link(Feed, Link),
+    href(Link, Href),
+    Href == 'http://www.cato.org/',
+    entry(Feed, Entry),
+    id(Entry, '50177'),
+    title(Entry, Title),
+    Title == 'In Maryland, A Left-Right Alliance on Surveillance',
+    !.
+
+'popehat: books' :-
+    new_feed(file('samples/popehat.xml'), Feed),
+    entry(Feed, Entry),
+    link(Entry, Link),
+    href(Link, 'http://feedproxy.google.com/~r/Popehat/~3/La1PTh-AtVk/'),
+    title(Entry, Title),
+    Title == 'Clark\'s Favorite Books Part 1: Science Fiction',
+    !.

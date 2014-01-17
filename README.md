@@ -13,7 +13,7 @@
 
 # Description
 
-Parse and query [Atom Syndication Feeds](http://www.ietf.org/rfc/rfc4287.txt).  This pack doesn't support every aspect of the Atom spec, but it does support the most widely used aspects.  It's intended as a relatively low level library on which more complex Atom feed processing can be implemented.
+Parse and query [Atom Syndication Feeds](http://www.ietf.org/rfc/rfc4287.txt) and [RSS feeds](http://cyber.law.harvard.edu/rss/rss.html).  This pack doesn't support every aspect of the Atom or RSS specs, but it does support many widely used aspects.  It's intended as a relatively low level library on which more complex feed processing can be implemented.
 
 # Changes in this Version
 
