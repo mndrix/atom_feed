@@ -152,9 +152,9 @@ summary(atom_entry(Entry), SummaryText) :-
     once(xpath(Summary, /'*'(text), SummaryText)),
 
     % must have text different from 'content' and 'title'
-    dif(Summary, Title),
+    dif(SummaryText, Title),
     title(atom_entry(Entry), Title),
-    ( content(atom_entry(Entry), Content) -> dif(Summary, Content) ; true ).
+    ( content(atom_entry(Entry), Content) -> dif(SummaryText, Content) ; true ).
 
 
 %% title(+Item, -Title:atom) is det.
