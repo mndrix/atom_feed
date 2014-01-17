@@ -36,9 +36,9 @@ delay:mode(system:atomic_list_concat(_,ground,ground)).
 %    * url(Url) - a URL to fetch
 %
 % This is the first step in working with an Atom feed.
-new_feed(stream(Stream), feed(Tree)) :-
+new_feed(stream(Stream), atom_feed(Tree)) :-
     parse_xml(Stream, Tree).
-new_feed(file(File), feed(Tree)) :-
+new_feed(file(File), atom_feed(Tree)) :-
     parse_xml(File, Tree).
 new_feed(atom(Atom), Feed) :-
     atom_codes(Atom, Codes),
@@ -78,10 +78,10 @@ xpath(Dom, Spec) :-
 %% id(+Item, -Id:atom) is det.
 %
 %  True if Id is the 'id' of Item.  Item can be a feed or an entry.
-id(feed(Dom), IdText) :-
+id(atom_feed(Dom), IdText) :-
     once(xpath(Dom, /(atom:feed)/(atom:id), Id)),
     once(xpath(Id, /'*'(text), IdText)).
-id(entry(Dom), IdText) :-
+id(atom_entry(Dom), IdText) :-
     once(xpath(Dom, /(atom:entry)/(atom:id), Id)),
     once(xpath(Id, /'*'(text), IdText)).
 
@@ -91,9 +91,9 @@ id(entry(Dom), IdText) :-
 %  True if Author is the 'author' of Item. Item can be a feed or an
 %  entry. An author is a compound item. See name/2 for a predicate that
 %  works with this item.
-author(feed(Dom), author(Author)) :-
+author(atom_feed(Dom), atom_author(Author)) :-
     xpath(Dom, /(atom:feed)/(atom:author), Author).
-author(entry(Dom), author(Author)) :-
+author(atom_entry(Dom), atom_author(Author)) :-
     xpath(Dom, /(atom:entry)/(atom:author), Author).
 
 
@@ -101,7 +101,7 @@ author(entry(Dom), author(Author)) :-
 %
 %  True if Content is the 'content' of Entry. There's currently no way
 %  to access the content's `type` or `src` attributes.
-content(entry(Entry), ContentText) :-
+content(atom_entry(Entry), ContentText) :-
     once(xpath(Entry, /(atom:entry)/(atom:content), Content)),
     once(xpath(Content, /'*'(text), ContentText)).
 
@@ -111,28 +111,28 @@ content(entry(Entry), ContentText) :-
 %  True if Summary is a summary of Entry. Fails if an entry has no
 %  summary or the summary violates standards described in the Atom
 %  spec (exact copy the entry's title, etc).
-summary(entry(Entry), SummaryText) :-
+summary(atom_entry(Entry), SummaryText) :-
     % summary on entry is optional. See RFC4287 4.2.13
     once(xpath(Entry, /(atom:entry)/(atom:summary), Summary)),
     once(xpath(Summary, /'*'(text), SummaryText)),
 
     % must have text different from 'content' and 'title'
     dif(Summary, Title),
-    title(entry(Entry), Title),
-    ( content(entry(Entry), Content) -> dif(Summary, Content) ; true ).
+    title(atom_entry(Entry), Title),
+    ( content(atom_entry(Entry), Content) -> dif(Summary, Content) ; true ).
 
 
 %% title(+Item, -Title:atom) is det.
 %
 %  True if Title is the title of Item. Item can be a feed, entry or
 %  link.
-title(feed(Dom), TitleText) :-
+title(atom_feed(Dom), TitleText) :-
     once(xpath(Dom, /(atom:feed)/(atom:title), Title)),
     once(xpath(Title, /'*'(text), TitleText)).
-title(entry(Dom), TitleText) :-
+title(atom_entry(Dom), TitleText) :-
     xpath(Dom, /(atom:entry)/(atom:title), Title),
     once(xpath(Title, /'*'(text), TitleText)).
-title(link(Dom), TitleText) :-
+title(atom_link(Dom), TitleText) :-
     Dom = element(_,Attrs,_),
     memberchk(title=TitleText, Attrs).
 
@@ -141,7 +141,7 @@ title(link(Dom), TitleText) :-
 %
 %  True if Entry is an entry of Feed. Iterates of the feed's entries on
 %  backtracking.
-entry(feed(Dom), entry(Entry)) :-
+entry(atom_feed(Dom), atom_entry(Entry)) :-
     xpath(Dom, /(atom:feed)/(atom:entry), Entry).
 
 
@@ -157,9 +157,9 @@ entry(feed(Dom), entry(Entry)) :-
 %      rel(Link, alternate),
 %      type(Link, text/html),
 %      href(Link, Url).
-link(feed(Dom), link(Link)) :-
+link(atom_feed(Dom), atom_link(Link)) :-
     xpath(Dom, /(atom:feed)/(atom:link), Link).
-link(entry(Dom), link(Link)) :-
+link(atom_entry(Dom), atom_link(Link)) :-
     xpath(Dom, /(atom:entry)/(atom:link), Link).
 
 
@@ -167,7 +167,7 @@ link(entry(Dom), link(Link)) :-
 %
 %  True if Name is the 'name' of Author. According to the Atom spec,
 %  this should be a human readable name.
-name(author(Author), NameText) :-
+name(atom_author(Author), NameText) :-
     % name on author is mandatory.  See RFC4287 3.2.1
     once(xpath(Author, /(atom:author)/(atom:name), Name)),
     xpath(Name, /'*'(text), NameText).
@@ -178,7 +178,7 @@ name(author(Author), NameText) :-
 %  True if Rel is the relationship between Link and its parent. If the
 %  Atom XML doesn't explicitly specify a 'rel', `alternate` is used
 %  instead.  That's why this predicate's mode is `det`.
-rel(link(Link), Rel) :-
+rel(atom_link(Link), Rel) :-
     % rel on link is optional, defaults to "alternate".
     % See RFC4287 4.2.7.2
     Link = element(_,Attrs,_),
@@ -193,7 +193,7 @@ rel(link(Link), Rel) :-
 %% href(+Link, -Href:atom) is det.
 %
 %  True if Href is the 'href' attribute of Link.
-href(link(Link), Href) :-
+href(atom_link(Link), Href) :-
     % href on link is mandatory. See RFC4287 4.2.7.1
     once(xpath(Link, /'*'(@href=Href))).
 
@@ -210,7 +210,7 @@ href(link(Link), Href) :-
 %
 %  Subtype may contain punctuation so remember to quote:
 %  `application/'atom+xml'`.
-type(link(element(_,Attrs,_)), Type/Subtype) :-
+type(atom_link(element(_,Attrs,_)), Type/Subtype) :-
     delay(atomic_list_concat([Type, Subtype], '/', RawType)),
 
     % type on link is optional, with no default.
