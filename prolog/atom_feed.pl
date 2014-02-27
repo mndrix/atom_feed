@@ -18,6 +18,7 @@
 :- use_module(library(charsio), [open_chars_stream/2]).
 :- use_module(library(delay)).
 :- use_module(library(http/http_open), [http_open/3]).
+:- use_module(library(http/http_ssl_plugin)).  % for SSL
 :- use_module(library(sgml), [load_sgml/3]).
 :- use_module(library(xpath)).
 
@@ -52,10 +53,20 @@ new_feed(codes(Codes), Feed) :-
     open_chars_stream(Codes, Stream),
     new_feed(stream(Stream), Feed).
 new_feed(url(Url), Feed) :-
-    setup_call_cleanup( http_open(Url, Stream, [timeout(10)])
+    setup_call_cleanup( http_open(Url, Stream, [ timeout(10)
+                                               , cert_verify_hook(ssl_verify)
+                                               ])
                       , new_feed(stream(Stream), Feed)
                       , close(Stream)
                       ).
+
+% accept all SSL certificates
+ssl_verify( _SSL
+          , _ProblemCertificate
+          , _AllCertificates
+          , _FirstCertificate
+          , _Error
+          ).
 
 
 % convenience for new_feed/2 when parsing XML
