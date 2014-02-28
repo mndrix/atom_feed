@@ -17,7 +17,8 @@ Parse and query [Atom Syndication Feeds](http://www.ietf.org/rfc/rfc4287.txt) an
 
 # Changes in this Version
 
-  * Allow fetching of feeds over SSL
+  * Predicate for entry publication time
+  * Predicate for entry update time
 
 # Installation
 
