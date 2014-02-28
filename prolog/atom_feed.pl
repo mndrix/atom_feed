@@ -8,10 +8,12 @@
                      , id/2
                      , link/2
                      , name/2
+                     , published/2
                      , rel/2
                      , summary/2
                      , title/2
                      , type/2
+                     , updated/2
                      ]
          ).
 
@@ -217,6 +219,29 @@ link(atom_entry(Dom), atom_link(Link)) :-
     xpath(Dom, /(atom:entry)/(atom:link), Link).
 link(rss_entry(Dom), rss_link(Link)) :-
     xpath(Dom, /item/link, Link).
+
+
+%% published(+Entry, -EpochSeconds:float) is semidet.
+%
+%  True if Entry was published at time EpochSeconds. EpochSeconds is in
+%  the same format as that returned by get_time/1
+published(atom_entry(Dom), Epoch) :-
+    once(xpath(Dom, /(atom:entry)/(atom:published), Published)),
+    xpath(Published, /'*'(text), Date),
+    parse_time(Date, Epoch).
+published(rss_entry(Dom),Epoch) :-
+    once(xpath(Dom, /item/pubDate(text), Date)),
+    parse_time(Date, Epoch).
+
+
+%% updated(+Entry, -EpochSeconds:float) is semidet.
+%
+%  True if Entry was last updated at time EpochSeconds. EpochSeconds is
+%  in the same format as that returned by get_time/1.
+updated(atom_entry(Dom), Epoch) :-
+    once(xpath(Dom, /(atom:entry)/(atom:updated), Updated)),
+    xpath(Updated, /'*'(text), Date),
+    parse_time(Date, Epoch).
 
 
 %% email(+Author, -Email:atom) is semidet.
